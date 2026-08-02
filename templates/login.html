@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Student Login</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>EduFlow School Portal</h2>
+
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Student Login</h2>
+
+<form method="POST">
+
+<input type="email" name="email" placeholder="Enter Email" required>
+
+<input type="password" name="password" placeholder="Enter Password" required>
+
+<button type="submit">
+
+Login
+
+</button>
+
+</form>
+
+<br>
+
+<a href="/" class="btn">
+<br><br>
+
+<a href="/forgot-password">
+    Forgot Password?
+</a>
+
+<br><br>
+Back Home
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
