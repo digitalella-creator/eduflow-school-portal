@@ -27,6 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify Flask Installation
-        run: |
-          python -c "import flask; print('Flask installed successfully!')"
+      - - name: Run Tests
+  run: |
+    pytest
